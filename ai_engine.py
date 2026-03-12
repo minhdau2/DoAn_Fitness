@@ -13,7 +13,7 @@ from PIL import Image
 load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
 client = genai.Client(api_key=API_KEY)
-MODEL_NAME = "gemini-3.1-flash-lite"
+MODEL_NAME = "gemini-3.1-flash-lite-preview"
 
 def generate_workout_plan(user_data):
 
